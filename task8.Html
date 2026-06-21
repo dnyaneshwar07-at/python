@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Insta Logo</title>
+<link rel="shortcut icon" href="social.png" type="image/x-icon">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(254, 253, 253);
+        }
+
+        .Logo {
+            padding: 150px 150px;
+            background: linear-gradient(170deg, purple, violet, #FD1D1D, orange, yellow);
+            border-radius: 20%;
+            margin: auto;
+            margin-top: 250px;
+            position: relative;
+            box-shadow: 5px 5px 11px gray;
+        }
+
+        .Rectangle {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(170deg, purple, violet, #FD1D1D, orange, yellow);
+            border-radius: 20%;
+            padding: 20px 20px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: solid rgb(252, 249, 249) 20px;
+        }
+
+        .dot {
+            width: 20px;
+            height: 20px;
+            background: rgb(252, 251, 251);
+            border-radius: 50%;
+            padding: 2px 2px;
+            position: absolute;
+            top: 70px;
+            right: 70px;
+        }
+
+        .circle {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(170deg, purple, violet, #FD1D1D, orange, yellow);
+            border-radius: 50%;
+            padding: 5px 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: solid white 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Logo">
+        <div class="Rectangle"></div>
+        <div class="circle"></div>
+        <div class="dot"></div>
+    </div>
+</body>
+
+</html>
